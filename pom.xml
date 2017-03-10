@@ -6,7 +6,7 @@
 	<groupId>com.sanaa</groupId>
 	<artifactId>Cat_produit</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>Cat_produit</name>
 	<description>projet Spring Boot</description>
