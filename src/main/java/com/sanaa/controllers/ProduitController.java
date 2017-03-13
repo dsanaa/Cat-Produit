@@ -21,19 +21,14 @@ import com.sanaa.entity.Produit;
 
 
 @Path("/")
-@Component
-
 public class ProduitController {
 	
 	@Autowired
-	
 	private IProduitRepository produitRepository;
 	
 	@GET
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/test")
-	
-	
 	public String test(){
 		return "test";
 	
